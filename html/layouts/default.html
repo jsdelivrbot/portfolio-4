@@ -3,16 +3,38 @@
   <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
-    <title> Bootstrap 4 project :: {{title}}</title>
-    
-    <!--Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="robots" content="follow">
+
+    <title> Portfolio :: {{title}}</title>
+
+    {{> app-icons}}
+
+    <!-- Icon fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Stylesheets -->
       <link rel="stylesheet" href="{{root}}css/app.css">
   </head>
+
   <body>
+    <!-- BEGIN HEADER -->
+    {{> header}}
+    <!-- END HEADER -->
+
+    <!-- BEGIN CONTENT -->
     {{> body}}
+    <!-- END CONTENT -->
+
+    <!-- BEGIN FOOTER -->
+    {{> footer}}
     {{> footerjavascripts}}
-  </body>  
+    <!-- END FOOTER -->
+  </body>
+
 </html>

@@ -1,13 +1,14 @@
 {
-  "name": "empty-bootstrap-project-gulp",
+  "name": "mark-genest-portolio",
   "version": "0.0.1",
   "authors": [
      "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)"
+     "Mark Genest <mark@markgenest.com> (http://markgenest.com)"
   ],
-  "description": "An empty new Bootstrap project. Powered by Panini, Sass and Gulp.",
+  "description": "Mark Genest's Portfolio Project. Powered by Panini, Sass and Gulp.",
   "main": "docs/index.html",
   "license": "MIT",
-  "homepage": "https://github.com/bassjobsen/empty-bootstrap-project-gulp/",
+  "homepage": "http://markgenest.github.io/porfolio/",
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "tether": "^1.1.2"
