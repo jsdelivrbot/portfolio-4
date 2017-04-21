@@ -23,4 +23,4 @@ npm install
 bower install
 ```
 
-Finally, run `npm start` to run the Sass and HTML template compiler. They will re-run every time you save a Sass or HTML temaplate file.
+Finally, run `npm start` to run the Sass and HTML template compiler. It will re-run every time you save a Sass or HTML template file and compile to `/docs` folder which is the root folder from where the files will be served on GitHub pages.
