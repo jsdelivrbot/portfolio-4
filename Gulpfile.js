@@ -32,6 +32,7 @@ gulp.task('clean', function() {
 // Copy assets
 gulp.task('copy', function() {
   gulp.src(['assets/**/*']).pipe(gulp.dest('docs'));
+  gulp.src(['CNAME']).pipe(gulp.dest('docs'));
 });
 
 var sassOptions = {
