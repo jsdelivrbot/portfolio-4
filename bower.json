@@ -8,7 +8,7 @@
   "description": "Mark Genest's Portfolio Project. Powered by Panini, Sass and Gulp.",
   "main": "docs/index.html",
   "license": "MIT",
-  "homepage": "http://markgenest.github.io/porfolio/",
+  "homepage": "http://markgenest.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "tether": "^1.1.2"
