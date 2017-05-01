@@ -14,7 +14,7 @@
 // Grid breakpoints
 // Grid containers
 // Grid columns
-// Fonts
+// Typography
 // Components
 
 @mixin _assert-ascending($map, $map-name) {
@@ -47,6 +47,12 @@ $gray:                      #55595c !default;
 $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
+
+$black:                     #000000 !default;
+$dark-light:                #1a1a1a !default;
+$white-darker:              #eeeeee !default;
+$white-dark:                #f1f1f1 !default;
+$white:                     #ffffff !default;
 
 $brand-primary:             #0275d8 !default;
 $brand-success:             #5cb85c !default;
@@ -157,8 +163,8 @@ $grid-gutter-width: 30px !default;
 // Typography
 //
 // Font, line-height, and color for body text, headings, and more.
-
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,600i,700,700i,800,800i');
+$font-family-sans-serif: "Nunito Sans", Arial, sans-serif !default;
 $font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
